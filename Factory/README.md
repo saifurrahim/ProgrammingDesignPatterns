@@ -4,7 +4,7 @@ Factory is a design pattern that allow object creation without knowing the concr
 ### Pros
 1. Increasing flexibility
 
-  Factory allows variety of object creations based on parameter.
+    Factory allows variety of object creations based on parameter.
 
 2. Reduce code repetition
 
