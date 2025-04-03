@@ -17,15 +17,22 @@ Observer is a design pattern that allow an object to observe and respond to a ch
 
 ### Pros
 1. Flexibility\
+    Observer can be added and removed dynamically.
 2. Scalability\
+    This pattern allow adding observer without affecting the subject.
 3. Decoupling\
+    Subject and Observer are divided, so it is possible to change only one of them without affecting the other.
 
 ### Cons
 1. Complexity\
+    Design pattern always adding complexity to the code.
 2. Overhead\
+    Updating the observer is consuming times and resources.
 3. Synchronization Problem\
+    Observer can updating the data without complying synchronization, so synchronization mechanism must be added.
 
 ### So, when to NOT use Observer?
-1. Simple Code and Logic
-2. Critical Performance
-3. Undynamic Code
+1. Simple Code and Logic\
+    If the code is simple enough that doesn't need a flexibility and scalability, then no need to use this pattern. 
+2. Critical Performance\
+    If the performance is the number one priority and the overhead can affect the performance, then this pattern shouldn't be used.
