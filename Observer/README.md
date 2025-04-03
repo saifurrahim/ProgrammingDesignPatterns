@@ -1,0 +1,2 @@
+## Observer
+Observer is a design pattern that allow an object to observe and respond to a change of other object. This pattern dividing the object that observing (observer) from the object that observed (subject), so it can enhance flexibility and scalability.  
